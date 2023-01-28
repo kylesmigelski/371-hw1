@@ -1,0 +1,89 @@
+body {
+    margin: 20px;
+    font-family: "Source Code Pro", serif;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 30% 15% 1fr 15%;
+    grid-template-rows: 100px 1fr 1fr 100px;
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+}
+
+.area {
+    background: hsl(0, 0%, 100%);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.77) 60%);
+    color: #fff;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.9), 0 6px 25px 0 rgba(0, 0, 0, 0.19);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.a1 { grid-area: 1 / 1 / 2 / 2; }
+.a2 {
+    grid-area: 1 / 2 / 2 / 5;
+    display: flex;
+    justify-content: space-around;
+}
+.a3 { grid-area: 2 / 1 / 5 / 2; }
+.a4 { grid-area: 2 / 2 / 3 / 4; }
+.a5 { grid-area: 2 / 4 / 3 / 5; }
+.a6 { grid-area: 3 / 2 / 4 / 3; }
+.a7 { grid-area: 3 / 3 / 4 / 5; }
+.a8 {
+    display: flex;
+    grid-area: 4 / 2 / 5 / 5;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+}
+
+.image2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    width: 100%;
+}
+
+th, td {
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+}
+
+tbody tr:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+tr:nth-child(odd) {
+    background-color: rgba(150, 212, 212, 0.4);
+}
+
+a:link, a:visited {
+    color: rgb(150, 212, 212);
+}
+
+a.bullet:link, a.bullet:visited {
+    color: rgb(150, 212, 212);
+    padding: 15px 25px;
+    text-align: center;
+    display: inline-block;
+}
+
+a:hover, a:active {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+p.report {
+    line-height: 1.8;
+}
+
+
+

@@ -2,9 +2,139 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Hello world</title>
+    <title>Kyle Smigelski</title>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Source+Code+Pro&display=swap" rel="stylesheet">
 </head>
-<body>
+    <div class="grid-container">
+        <!-- Profile photo -->
+        <div class="area a1">
+            <img src="/profile.jpeg" alt="Profile Picture" class="image">
+        </div>
 
-</body>
+        <!-- h1 and h2 -->
+        <div class="area a2">
+            <h1>Kyle Smigelski</h1>
+            <h2><img src="/phone-svgrepo-com.svg" height="30px" alt="phone"> 248-444-1235</h2>
+        </div>
+
+        <!-- Report on how I made this page-->
+        <div class="area a3">
+            <h2 style="text-align: center">Report</h2>
+            <p class="report">
+                This page was made with HTML and CSS, using a grid layout to organize the page. I used the following
+                resources to help me make this page: <a href="https://www.w3schools.com/css/css_grid.asp">W3Schools CSS grid</a>,
+                <a href="https://www.w3schools.com/html/html_css.asp">W3Schools HTML and Css</a>, and <a
+                    href="https://dulimarta-teaching.netlify.app/cs371/lecture-slides.html">Professor Dulimarta's lecture notes</a>.
+                The grid is 4x4, sized explicitly and with grid elements that span multiple rows and columns.
+            </p>
+            <p class="report">
+                I made use of HSL, rgba, and hex color codes to make the page more visually appealing. Each grid element has a
+                gradient applied to it as well. The icons at the bottom are svg.
+            </p>
+            <p class="report">
+                The page is using a custom google font, Source Code Pro.
+            </p>
+
+        </div>
+
+        <!-- Table -->
+        <div  class="area a4">
+            <table style="width:100%">
+                <tr style="height:50px; font-size: 125%;">
+                    <th>Course Number</th>
+                    <th>Course Name</th>
+                    <th>Semester Taken</th>
+                </tr>
+                <tr>
+                    <td>CIS 162</td>
+                    <td>Introduction to Computer Science</td>
+                    <td>Fall 2020</td>
+                </tr>
+                <tr>
+                    <td>CIS 163</td>
+                    <td>Introduction to Computer Science II</td>
+                    <td>Winter 2021</td>
+                </tr>
+                <tr>
+                    <td>CIS 350</td>
+                    <td>Software Development</td>
+                    <td>Fall 2022</td>
+                </tr>
+                <tr>
+                    <td>CIS 353</td>
+                    <td>Database</td>
+                    <td>Winter 2022</td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- Picture -->
+        <div class="area a5">
+            <img src="/Oracle_SQL_Developer_logo.svg.png" alt="SQL Logo" class="image2">
+        </div>
+
+        <!-- List -->
+        <div class="area a6">
+            <h4>Local Company Links</h4>
+            <ul>
+                <li>
+                    <a class="bullet" href="https://www.yanfeng.com/en">YFA</a>
+                </li>
+                <li>
+                    <a class="bullet" href="https://www.ostusa.com/">OST</a>
+                </li>
+                <li>
+                    <a class="bullet" href="https://www.steelcase.com/">SCS</a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Paragraphs -->
+        <div class="area a7">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <i>incididunt</i> ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat. <b>Duis aute irure dolor in reprehenderit</b> in voluptate velit esse cillum dolore
+                eu fugiat nulla pariatur.
+            </p>
+            <p>
+                This is an example of a <b><i>singleton</i></b>:
+            </p>
+            <p><code>var Singleton = (function() {
+                var privateVariable = "…";
+                this.publicMethod = function()    {…};
+                function privateMethod() {…};
+                })();</code>
+            </p>
+        </div>
+
+        <!-- Icons -->
+        <div class="area a8" style="align-content: center">
+            <a target="_blank" href='https://www.github.com/kylesmigelski'
+               rel="noopener noreferrer">
+                <img src="/github-mark.svg" height="50" alt="github">
+            </a>
+            <a target="_blank" href='https://www.linkedin.com/in/kylesmigelski/'
+               rel="noopener noreferrer">
+                <img src="/linkedin-svgrepo-com.svg " height="50" alt="linkedin">
+            </a>
+            <a target="_blank" href='https://photos.app.goo.gl/b1qXwLsajX6cUfDh9'
+               rel="noopener noreferrer">
+                <img src="/Google_Photos_icon_(2020).svg" height="50" alt="google photos">
+            </a>
+            <a target="_blank"
+               href='https://www.instagram.com/kylesmigelski'
+               rel="noopener noreferrer">
+                <img src="/Instagram_logo_2016.svg" height="50" alt="instagram">
+            </a>
+            <a target="_blank"
+                href='https://www.stackoverflow.com'
+                rel="noopener noreferrer">
+                <img src="/stackoverflow-icon.svg" height="50" alt="stackoverflow">
+            </a>
+        </div>
+    </div>
 </html>
