@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Kyle Smigelski</title>
     <link rel="stylesheet" href="/styles.css">
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Source+Code+Pro&display=swap" rel="stylesheet">
@@ -41,35 +42,7 @@
         </div>
 
         <!-- Table -->
-        <div  class="area a4">
-            <table style="width:100%">
-                <tr style="height:50px; font-size: 125%;">
-                    <th>Course Number</th>
-                    <th>Course Name</th>
-                    <th>Semester Taken</th>
-                </tr>
-                <tr>
-                    <td>CIS 162</td>
-                    <td>Introduction to Computer Science</td>
-                    <td>Fall 2020</td>
-                </tr>
-                <tr>
-                    <td>CIS 163</td>
-                    <td>Introduction to Computer Science II</td>
-                    <td>Winter 2021</td>
-                </tr>
-                <tr>
-                    <td>CIS 350</td>
-                    <td>Software Development</td>
-                    <td>Fall 2022</td>
-                </tr>
-                <tr>
-                    <td>CIS 353</td>
-                    <td>Database</td>
-                    <td>Winter 2022</td>
-                </tr>
-            </table>
-        </div>
+        <div class="area a4" id="area4-table"> </div>
 
         <!-- Picture -->
         <div class="area a5">
@@ -77,20 +50,7 @@
         </div>
 
         <!-- List -->
-        <div class="area a6">
-            <h4>Local Company Links</h4>
-            <ul>
-                <li>
-                    <a class="bullet" href="https://www.yanfeng.com/en">YFA</a>
-                </li>
-                <li>
-                    <a class="bullet" href="https://www.ostusa.com/">OST</a>
-                </li>
-                <li>
-                    <a class="bullet" href="https://www.steelcase.com/">SCS</a>
-                </li>
-            </ul>
-        </div>
+        <div class="area a6" id="area6-list"></div>
 
         <!-- Paragraphs -->
         <div class="area a7">
@@ -112,29 +72,7 @@
         </div>
 
         <!-- Icons -->
-        <div class="area a8" style="align-content: center">
-            <a target="_blank" href='https://www.github.com/kylesmigelski'
-               rel="noopener noreferrer">
-                <img src="/github-mark.svg" height="50" alt="github">
-            </a>
-            <a target="_blank" href='https://www.linkedin.com/in/kylesmigelski/'
-               rel="noopener noreferrer">
-                <img src="/linkedin-svgrepo-com.svg " height="50" alt="linkedin">
-            </a>
-            <a target="_blank" href='https://photos.app.goo.gl/b1qXwLsajX6cUfDh9'
-               rel="noopener noreferrer">
-                <img src="/Google_Photos_icon_(2020).svg" height="50" alt="google photos">
-            </a>
-            <a target="_blank"
-               href='https://www.instagram.com/kylesmigelski'
-               rel="noopener noreferrer">
-                <img src="/Instagram_logo_2016.svg" height="50" alt="instagram">
-            </a>
-            <a target="_blank"
-                href='https://www.stackoverflow.com'
-                rel="noopener noreferrer">
-                <img src="/stackoverflow-icon.svg" height="50" alt="stackoverflow">
-            </a>
-        </div>
+        <div class="area a8" style="align-content: center" id="area8-social"></div>
     </div>
+    <script type="text/babel" src="script.ts"></script>
 </html>
